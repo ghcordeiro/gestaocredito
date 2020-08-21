@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { heightPercentageToDP, widthPercentageToDP } from '../../utils/percentageToDP';
-import Colors from '../../../assets/colors';
+import Colors from '../../assets/colors';
 import { RectButton } from 'react-native-gesture-handler';
 
 export const Container = styled.View`

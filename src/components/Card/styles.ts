@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { heightPercentageToDP, widthPercentageToDP } from '../../utils/percentageToDP';
-import Colors from '../../../assets/colors';
+import Colors from '../../assets/colors';
 
 export const Container = styled.TouchableOpacity`
   height: ${heightPercentageToDP(23)}px;
@@ -24,6 +24,7 @@ export const HeaderText = styled.Text`
   font-size: 18px;
   font-weight: bold;
   color: ${Colors.white};
+  font-family: 'Roboto-Bold';
 `;
 
 export const Body = styled.View`
@@ -41,4 +42,5 @@ export const BodyRow = styled.View`
 export const BodyText = styled.Text`
   font-size: 14px;
   color: ${Colors.default.text};
+  font-family: 'Roboto-Regular';
 `;

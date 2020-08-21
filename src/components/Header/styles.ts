@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { heightPercentageToDP, widthPercentageToDP } from '../../utils/percentageToDP';
-import Colors from '../../../assets/colors';
+import Colors from '../../assets/colors';
 
 export const Container = styled.View`
   height: ${heightPercentageToDP('18')}px;

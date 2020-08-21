@@ -2,7 +2,7 @@ const Colors = {
   primary: '#385772',
   secondary: '#3B72A2',
   tertiary: '#5799D3',
-  green_header: '#27AE60',
+  green_header: '#0C6121',
   white: '#FFFFFF',
   dark: '#41414A',
   default: {
