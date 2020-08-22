@@ -1,6 +1,6 @@
 import React from 'react';
 import 'react-native-gesture-handler';
-import { View, StatusBar } from 'react-native';
+import { View, StatusBar, SafeAreaView } from 'react-native';
 import Proposta from './pages/Proposta';
 import Home from './pages/Home';
 import PropostaDetalhe from './pages/PropostaDetalhe';
