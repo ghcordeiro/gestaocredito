@@ -1,13 +1,12 @@
 import React from 'react';
 import 'react-native-gesture-handler';
 import { View, StatusBar, SafeAreaView } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import Proposta from './pages/Proposta';
 import Home from './pages/Home';
 import PropostaDetalhe from './pages/PropostaDetalhe';
 import Colors from './assets/colors';
-
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 
 const Stack = createStackNavigator();
 
@@ -22,7 +21,8 @@ const App: React.FC = () => {
               headerShown: false,
               cardStyleInterpolator: CardStyleInterpolators.forFadeFromBottomAndroid,
             }}
-            mode="modal">
+            mode="modal"
+          >
             <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Proposta" component={Proposta} />
             <Stack.Screen name="PropostaDetalhe" component={PropostaDetalhe} />
@@ -31,6 +31,6 @@ const App: React.FC = () => {
       </View>
     </>
   );
-}
+};
 
 export default App;

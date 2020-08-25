@@ -6,7 +6,7 @@ export const Container = styled.TouchableOpacity`
   height: ${heightPercentageToDP(23)}px;
   width: ${widthPercentageToDP(100) - 32}px;
   border-radius: 5px;
-  background-color: #FFF;
+  background-color: #fff;
   margin-bottom: 16px;
 `;
 
@@ -24,7 +24,7 @@ export const HeaderText = styled.Text`
   font-size: 18px;
   font-weight: bold;
   color: ${Colors.white};
-  font-family: 'Roboto-Bold';
+  font-family: 'Lato-Bold';
 `;
 
 export const Body = styled.View`
@@ -42,5 +42,5 @@ export const BodyRow = styled.View`
 export const BodyText = styled.Text`
   font-size: 14px;
   color: ${Colors.default.text};
-  font-family: 'Roboto-Regular';
+  font-family: 'Lato-Regular';
 `;

@@ -7,7 +7,7 @@ const Colors = {
   dark: '#41414A',
   default: {
     bg: '#E5E5E5',
-    text: '#282E34'
+    text: '#282E34',
   },
   neutral: {
     neutral_0: '#41414A',
@@ -38,13 +38,13 @@ const Colors = {
     yellow_1: '#FFC24C',
     yellow_2: '#FFD380',
     yellow_3: '#FFE5B3',
-    yellow_4: '#FFF6E6'
+    yellow_4: '#FFF6E6',
   },
   red: {
     red_0: '#F46152',
     red_1: '#F78D82',
     red_2: '#FAB9B2',
-    red_3: '#FDE5E2'
+    red_3: '#FDE5E2',
   },
   danger: {
     danger_0: '#CB3530',
@@ -52,7 +52,7 @@ const Colors = {
   },
   info: {
     info_0: '#2186D9',
-    info_1: '#E9F3FC'
+    info_1: '#E9F3FC',
   },
   success: {
     success_0: '#1E854A',
@@ -72,8 +72,8 @@ const Colors = {
     maxi_0: '#282E34',
     maxi_1: '#385772',
     maxi_2: '#3b72a2',
-    maxi_3: '#5799d3'
-  }
-}
+    maxi_3: '#5799d3',
+  },
+};
 
 export default Colors;

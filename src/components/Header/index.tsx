@@ -10,7 +10,7 @@ const Header: React.FC = () => {
 
   const handleGoBack = () => {
     navigation.goBack();
-  }
+  };
 
   return (
     <>
@@ -20,9 +20,7 @@ const Header: React.FC = () => {
           <HeaderButton onPress={handleGoBack}>
             <Icon name="arrow-back" color="#FFF" size={35} />
           </HeaderButton>
-          <View style={{ flex: 4, alignItems: 'center', justifyContent: 'center' }}>
-
-          </View>
+          <View style={{ flex: 4, alignItems: 'center', justifyContent: 'center' }} />
           <HeaderButton onPress={handleGoBack}>
             <Icon name="ios-menu" color="#FFF" size={35} />
           </HeaderButton>
@@ -30,6 +28,6 @@ const Header: React.FC = () => {
       </Container>
     </>
   );
-}
+};
 
 export default Header;
