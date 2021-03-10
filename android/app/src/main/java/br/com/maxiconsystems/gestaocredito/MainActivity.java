@@ -1,4 +1,4 @@
-package com.gestaocredito;
+package br.com.maxiconsystems.gestaocredito;
 
 import com.facebook.react.ReactActivity;
 
