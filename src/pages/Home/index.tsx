@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: Colors.primary }}>
-        <Text style={{ fontSize: 20, fontWeight: 'bold', color: Colors.dark }}>Maxicon Sistemas Ltda</Text>
+        <Text style={{ fontSize: 20, fontWeight: 'bold', color: Colors.white }}>Maxicon Sistemas Ltda</Text>
       </View>
     </>
   );
